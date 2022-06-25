@@ -4,7 +4,7 @@ import { projectsObj } from "../../projectsDB";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col gap-12 p-4 lg:ml-52">
+    <div className="flex flex-col gap-12 p-4 lg:ml-52 h-screen">
       <h2 className="text-4xl font-bold text-white text-center lg:text-left ">
         My Projects
       </h2>
