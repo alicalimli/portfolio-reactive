@@ -4,8 +4,8 @@ import { StrictMode } from "react";
 
 const App = () => {
   return (
-    <StrictMode>  
-      <h1>hello world!</h1>
+    <StrictMode>
+      <h1 className="text-3xl text-blue-300">hello world!</h1>
     </StrictMode>
   );
 };
