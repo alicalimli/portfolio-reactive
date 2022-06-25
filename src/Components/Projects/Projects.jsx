@@ -4,19 +4,20 @@ import { projectsObj } from "../../projectsDB";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col gap-12 p-4 lg:ml-52 ">
-      <h2 className="text-4xl font-bold text-white">My Projects</h2>
-      <div className="grid-cols-16">
+    <div className="flex flex-col gap-12 p-4 lg:ml-52">
+      <h2 className="text-4xl font-bold text-white text-center lg:text-left ">
+        My Projects
+      </h2>
+      <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
         {projectsObj.map((project, i) => (
           <a
             href={project.link}
-            className="inline-block group relative rounded w-80 h-80 bg-contain"
+            className="inline-block group relative rounded w-80 h-80 bg-contain bg-no-repeat"
             key={project.title + i}
             style={{
               backgroundImage: `url(${project.preview})`,
             }}
           >
-            {console.log(project.preview)}
             <div className="absolute top-0 left-0 w-full h-full bg-cyan-500/20"></div>
             <AiOutlineLink
               className="absolute top-1/2 left-1/2 -translate-x-1/2 

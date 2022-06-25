@@ -15,7 +15,7 @@ const Header = () => {
           Contact me
         </button>
       </div>
-      <img src={profileImg} className="w-84" alt="" />
+      <img src={profileImg} className="w-84 hidden lg:block" alt="" />
     </div>
   );
 };
