@@ -2,7 +2,7 @@ import profileImg from "../../Assets/my-profile.png";
 
 const Header = () => {
   return (
-    <div className="h-screen w-screen bg-gray-900 flex flex-col lg:flex-row  gap-3  items-center justify-center lg:justify-between p-4 lg:px-44">
+    <div className="h-screen w-screen bg-slate-900 flex flex-col lg:flex-row  gap-3  items-center justify-center lg:justify-between p-4 lg:px-44">
       <div className="text-left min-w-max">
         <h2 className="text-white text-5xl font-bold">Hello, I am</h2>
         <h1 className="text-white text-7xl font-bold">
