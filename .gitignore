@@ -1,8 +1,8 @@
-/node_modules
-/build
-.DS_Store
+node_modules
+.parcel-cache
+parcel-cache
+dist/
 .env
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
+coverage/
+.vsc
+.DS_Store
