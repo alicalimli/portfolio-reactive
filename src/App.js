@@ -2,10 +2,12 @@ import ReactDOM from "react-dom";
 import React from "react";
 import { StrictMode } from "react";
 
+import Header from "./Components/Header/Header.jsx";
+
 const App = () => {
   return (
     <StrictMode>
-      <h1 className="text-3xl text-blue-300">hello world!</h1>
+      <Header />
     </StrictMode>
   );
 };
