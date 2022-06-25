@@ -6,4 +6,14 @@ export const projectsObj = [
     preview: clipBoardPreview,
     link: "https://clipboard-ali.netlify.app/",
   },
+  {
+    title: "Clipboard",
+    preview: clipBoardPreview,
+    link: "https://clipboard-ali.netlify.app/",
+  },
+  {
+    title: "Clipboard",
+    preview: clipBoardPreview,
+    link: "https://clipboard-ali.netlify.app/",
+  },
 ];
